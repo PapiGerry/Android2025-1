@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity implements TextView.OnClickL
          TextView txvMiTexto;
         String cadena = "";
 
+
+/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements TextView.OnClickL
         cadena += "\n| onRestart()";
         txvMiTexto.setText(cadena);
     }
-
+*/
     @Override
     public void onClick(View v) {
 
@@ -99,4 +101,7 @@ public class MainActivity extends AppCompatActivity implements TextView.OnClickL
         txvMiTexto.setText(cadena);
 
     }
+
+    
+
 }
